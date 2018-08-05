@@ -1,0 +1,23 @@
+.mine-list {
+	background-color: #ccccff;
+	border: thin;
+	color: black;
+	margin: auto;
+    width: 100%;
+    border: 3px solid #fdffff;
+    padding: 10px;
+    display:inline-block;
+}
+
+.mine-title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.mine-result {
+	display: inline;
+}
+
+.form-control {
+	display: inline-block;
+}

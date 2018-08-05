@@ -1,0 +1,13 @@
+<div class="mine-list">
+	<div class="mine-title">Trouvez une mine</div>
+	<input #searchInput type="text" [(ngModel)]="globalSearch"
+		class="form-control" (input)="updatesMines()">
+
+	<div>
+		<div class="mine-result" *ngFor="let m of mines"
+			(click)="displayMine(m)">
+			<span>{{m.nom}}</span>
+		</div>
+	</div>
+
+</div>
